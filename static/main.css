@@ -1,0 +1,9 @@
+.colorHSV::-moz-range-thumb {
+    border: 2px solid #007bff;
+    background-color: transparent;
+}
+
+.colorHSV::-moz-range-track {
+    height: 1rem;
+    background: linear-gradient(to right, hsl(0, 100%, 50%) 0%, hsl(120, 100%, 50%) 33%, hsl(240, 100%, 50%) 67%, hsl(360, 100%, 50%) 100%);
+}
